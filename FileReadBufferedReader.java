@@ -9,6 +9,7 @@ public class FileReadBufferedReader {
         while (line !=null){
             System.out.println(line);
             line = br.readLine();
+            br.close();
         }
     }
 }
